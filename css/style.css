@@ -389,23 +389,23 @@ nav ul li a:hover{
 .icon-1{
     padding-top: 9px;
     border-radius: 50px;
-    margin: 0 15px;
+    margin: 0 1rem;
     font-size: 1.7rem;
     color: white;
     background-color: black; 
-    height: 45px;
-    width: 45px;
+    height: 2.7rem;
+    width: 2.7rem;
 }
 
 .icon-2{
     padding-top: 9px;
     border-radius: 50px;
-    margin: 0 15px;
+    margin: 0 1rem;
     font-size: 1.7rem;
     color: rgb(255, 0, 111);
     background-color: white; 
-    height: 45px;
-    width: 45px;
+    height: 2.7rem;
+    width: 2.7rem;
 }
 
 .icon-1:hover{
@@ -419,12 +419,12 @@ nav ul li a:hover{
 .icon-3{
     padding-top: 9px;
     border-radius: 50px;
-    margin: 0 15px;
+    margin: 0 1rem;
     font-size: 1.7rem;
     color: white;
-    background-color: rgb(74, 74, 255); 
-    height: 45px;
-    width: 45px;
+    background-color: rgb(115, 115, 253); 
+    height: 2.7rem;
+    width: 2.7rem;
 }
 
 .copyright {
