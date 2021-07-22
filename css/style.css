@@ -366,13 +366,16 @@ nav ul li a:hover{
     margin: 10px 0;
 }
 
-.button-btn a {
+.button-btn button {
     background-color: var(--button-color);
     padding: 8px 15px;
     border-radius: 5px;
+    outline: none;
+    border:none;
+    color: white;
 }
 
-.button-btn a:hover {
+.button-btn button:hover {
     background-color: whitesmoke;
     color: black;
     transform: scale(.90);
