@@ -406,12 +406,12 @@ nav ul li a:hover{
 }
 
 .icon-1:hover{
-    transform: scale(.95);
+    transform: scale(.9);
 }
 .icon-2:hover{
-    transform: scale(.95);
+    transform: scale(.9);
 }.icon-3:hover{
-    transform: scale(.95);
+    transform: scale(.9);
 }
 .icon-3{
     padding-top: 9px;
