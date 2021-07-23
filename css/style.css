@@ -378,7 +378,6 @@ nav ul li a:hover{
 .button-btn button:hover {
     background-color: whitesmoke;
     color: black;
-    transform: scale(.90);
 }
 
 .icons {
@@ -422,7 +421,7 @@ nav ul li a:hover{
     margin: 0 1rem;
     font-size: 1.7rem;
     color: white;
-    background-color: rgb(115, 115, 253); 
+    background-color: #117EB7; 
     height: 2.7rem;
     width: 2.7rem;
 }
