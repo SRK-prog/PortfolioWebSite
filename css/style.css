@@ -251,9 +251,9 @@ nav ul li a:hover{
     color: #3f69e7;
 }
 
-.img-project img:hover{
+/* .img-project img:hover{
     transform: scale(1.05);
-}
+} */
 
 .imag {
     display: flex;
