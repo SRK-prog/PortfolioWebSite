@@ -243,6 +243,31 @@ nav ul li a:hover{
     height: 300px;
 }
 
+.revealright {
+    position: relative;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.revealright.activeright {
+
+    transform: translateX(0px);
+    opacity: 1; 
+}
+
+.revealleft {
+    position: relative;
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.revealleft.activeleft {
+
+    transform: translateX(0px);
+    opacity: 1; 
+}
+
+
 .img-project a {
     color: #798fd1;
 }
@@ -514,32 +539,4 @@ nav ul li a:hover{
 }
 .img-project h1 {
     color: var(--title-color);
-}
-
-.activeleft  {
-    position: relative; 
-    animation-name: leftanime;
-    -webkit-animation-name: leftanime;
-    animation-delay: 0;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes leftanime {
-    0% {left: -50px; opacity: 0%;}
-    100% {left: 0; opacity: 100%;}
-}
-    
-.activeright  {
-    position: relative; 
-    animation-name: rightanime;
-    -webkit-animation-name: rightanime;
-    animation-delay: 0;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;  
-}
-    
-@keyframes rightanime {
-    0% {right: -50px; opacity: 0%;}
-    100% {right: 0; opacity: 100%;}
 }

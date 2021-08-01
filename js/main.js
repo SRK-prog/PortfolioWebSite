@@ -13,9 +13,9 @@ function revealright(){
         if(revealtop < windowheight - revealpoint){
             reveals[i].classList.add('activeright');
         }
-        // else{
-        //     reveals[i].classList.remove('activeright');
-        // }
+        else{
+            reveals[i].classList.remove('activeright');
+        }
     }
 }  
 
@@ -34,8 +34,8 @@ function revealleft(){
         if(revealtop < windowheight - revealpoint){
             reveals[i].classList.add('activeleft');
         }
-        // else{
-        //     reveals[i].classList.remove('activeleft');
-        // }
+        else{
+            reveals[i].classList.remove('activeleft');
+        }
     }
 }   
