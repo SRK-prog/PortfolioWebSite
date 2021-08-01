@@ -186,14 +186,14 @@ function revealright(){
 
         var windowheight = window.innerHeight;
         var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = -5;
+        var revealpoint = 0;
 
         if(revealtop < windowheight - revealpoint){
             reveals[i].classList.add('activeright');
         }
-        else{
-            reveals[i].classList.remove('activeright');
-        }
+        // else{
+        //     reveals[i].classList.remove('activeright');
+        // }
     }
 }  
         window.addEventListener('scroll', revealleft);
@@ -206,14 +206,14 @@ function revealleft(){
 
         var windowheight = window.innerHeight;
         var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = -5;
+        var revealpoint = 0;
 
         if(revealtop < windowheight - revealpoint){
             reveals[i].classList.add('activeleft');
         }
-        else{
-            reveals[i].classList.remove('activeleft');
-        }
+        // else{
+        //     reveals[i].classList.remove('activeleft');
+        // }
     }
 }   
     </script>
