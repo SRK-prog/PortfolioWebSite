@@ -1,20 +1,22 @@
 @charset "UTF-8";
 
 :root{
-    --primary-color: #1F2235;
+    --primary-color: #1f2235;
     --content-color: #24263d;
-    --button-color: rgba(226, 19, 19, 0.809);
+    --button-color: #e21313ce;
     --font-color: white;
     --title-color: white;
     --Hover-color: red;
+    --nav-color: rgba(31, 34, 53, 0.8);
 }
 .darktheme{
-    --primary-color: #e8e8e8;
+    --primary-color: rgb(232, 232, 232);
     --content-color: #d5d4d4;
     --button-color: rgba(238, 3, 3, 0.809);
-    --font-color: rgb(0, 0, 0);
-    --title-color: rgb(0, 0, 0);
+    --font-color: #000000;
+    --title-color: #000000;
     --Hover-color: red;
+    --nav-color: rgba(232, 232, 232, 0.8);
 }
 
 :root {
@@ -33,7 +35,7 @@
 
 body{
     background-color: var(--primary-color);
-    
+
 }
 
 
@@ -41,8 +43,7 @@ body{
 
 
 nav{
-    background-color: var(--primary-color);
-    opacity: 90%;
+    background-color: var(--nav-color);
     box-sizing: border-box;    
     height: 80px;
     width: 100%;
@@ -56,7 +57,6 @@ nav{
     width: 100%;
     height: 80px;
     background-color: var(--primary-color);
-    
 }
 
 
@@ -66,7 +66,6 @@ label.title{
     line-height: 80px;
     padding: 0 50px;
     font-weight: bold;
-    /* opacity: 100%; */
 }
 
 nav ul{
@@ -119,7 +118,6 @@ nav ul li a:hover{
     font-family: var(--secondary-font);
     padding: 0 2rem;
     text-align: center;
-    
 }
 
 
@@ -213,10 +211,14 @@ nav ul li a:hover{
     background-color: var(--button-color);
 }
 
+#light {
+    cursor: pointer;
+}
+
 /* Projects */
 
 .project{
-    
+    transition: all .5s;
     font-family: var(--secondary-font);
     /* height: ; */
     text-align: center;
@@ -518,7 +520,7 @@ nav ul li a:hover{
     }
     
     ul{
-        background-color: var(--primary-color);
+        background-color: var(--nav-color);
         position: fixed;
         width: 100%;
         text-align: center;
