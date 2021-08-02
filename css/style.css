@@ -6,6 +6,15 @@
     --button-color: rgba(226, 19, 19, 0.809);
     --font-color: white;
     --title-color: white;
+    --Hover-color: red;
+}
+.darktheme{
+    --primary-color: #e8e8e8;
+    --content-color: #d5d4d4;
+    --button-color: rgba(238, 3, 3, 0.809);
+    --font-color: rgb(0, 0, 0);
+    --title-color: rgb(0, 0, 0);
+    --Hover-color: red;
 }
 
 :root {
@@ -40,7 +49,7 @@ nav{
     margin-bottom: 1rem;
     position: fixed;
     font-family: var(--primary-font);
-    z-index: 1;
+    z-index: 99;
 }
 
 .top{
@@ -53,7 +62,7 @@ nav{
 
 label.title{
     font-size: 2rem;
-    color: white;
+    color: var(--font-color);
     line-height: 80px;
     padding: 0 50px;
     font-weight: bold;
@@ -72,7 +81,8 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: var(--font-color);
+    font-weight: 400;
     font-size: .8rem;
     padding: .5rem 1rem;
     text-transform: uppercase;
@@ -81,12 +91,12 @@ nav ul li a{
 nav ul li a:hover{
    
     transition: .5s;
-    color: brown;
+    color: var(--Hover-color);
     
 }
 
 .checkbtn{
-    color: white;
+    color: var(--font-color);
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -114,7 +124,7 @@ nav ul li a:hover{
 
 
 .section-1 h1{
-    color: white;
+    color: var(--font-color);
     font-size: 2rem;
     
 
@@ -122,11 +132,11 @@ nav ul li a:hover{
 
 /* Animation */
 #animation {
-    height: 230px;
+    height: 240px;
 }
 
 #animation h1 {
-    line-height: 2rem;
+    line-height: 2.3rem;
     position: relative;
     animation: heading;
     animation-duration: 2s;
@@ -182,7 +192,7 @@ nav ul li a:hover{
 
 
 .section-1 h2{
-    color: white;
+    color: var(--font-color);
     font-size: 1.2rem;  
 }
 
@@ -195,7 +205,7 @@ nav ul li a:hover{
     padding: 10px;
     border: 2px solid var(--button-color);
     cursor: pointer;
-    color: white;  
+    color: var(--font-color);  
 }
 
 .button a:hover {
@@ -407,16 +417,18 @@ nav ul li a:hover{
     margin: 10px 0;
 }
 
-.button-btn a {
+.button-btn button{
     background-color: var(--button-color);
     padding: 8px 15px;
     border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
 }
 
-.button-btn a:hover {
+.button-btn button:hover {
     background-color: whitesmoke;
     color: black;
-    transform: scale(.90);
 }
 
 .icons {

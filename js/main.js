@@ -39,3 +39,15 @@ function revealleft(){
         }
     }
 }   
+
+// lightMode
+var Light =document.getElementById("light");
+
+Light.onclick = function(){
+document.body.classList.toggle("darktheme");
+    if(document.body.classList.contains("darktheme")){
+        Light.textContent = 'dark';
+    } else{
+        Light.textContent = 'light';
+    }
+}
