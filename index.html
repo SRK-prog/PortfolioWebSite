@@ -38,10 +38,13 @@
           <h1>sivaramakrishnan</h1>
         </header>
         <div id="content" class="anination-test">
-          <h2>Self learned web developer and web designer</h2>
+          <h2>Self learned web developer</h2>
         </div>
         <div id="btnanime" class="button">
-          <a href="https://drive.google.com/file/d/1u0fazMpqeWi2nBleabOfDhp5oHSjZxBX/view?usp=sharing">My Resume</a>
+          <a
+            href="https://drive.google.com/file/d/1u0fazMpqeWi2nBleabOfDhp5oHSjZxBX/view?usp=sharing"
+            >Resume</a
+          >
         </div>
       </div>
 
@@ -49,32 +52,30 @@
       <div id="pro" class="project">
         <h2>PROJECTS</h2>
       </div>
-
-   
-      <div class="img-project">
-        <div class="imag-1 revealright">
-          <img src="images/grayscale.png" alt="image" />
+      <div class="Project_List">
+        <div class="Project_List_Img revealright">
+          <img class="Project_List_Image" src="images/mern.png" alt="" />
         </div>
-        <div class="grid-1 revealleft">
-          <h1>Grayscale Clone</h1>
+        <div class="Project_List_Desc revealleft">
+          <h1 style="margin-bottom: 10px">Mern</h1>
           <p>
-            Grayscale is a template from start bootstrap, I recreated that
-            template with plain HTML and Css code. I modified this website a
-            little to look different from orginal, This helped me learn css
-            animations and more.
+            Mern is a fully fledged social media website. You can communicate
+            with your friends and share posts. It has a chat option and you can
+            like and comment a post. You can follow peoples to view their posts.
+            I use React for front-end and node for back-end.
             <br />
             WebSite:
-            <a href="https://grayscale-clone.netlify.app/"
-              >https://grayscale-clone.netlify.app/</a
+            <a href="https://mern-media.netlify.app/"
+              >https://mern-media.netlify.app/</a
             >
           </p>
         </div>
       </div>
-      <div class="img-project">
-        <div class="imag revealleft">
-          <img src="images/sbadmin.png" alt="image" />
+      <div class="Project_List Reverse">
+        <div class="Project_List_Img revealleft">
+          <img class="Project_List_Image" src="images/sbadmin.png" alt="" />
         </div>
-        <div id="project-1" class="revealright">
+        <div class="Project_List_Desc revealright">
           <h1>SB Admin</h1>
           <p>
             SbAdmin is a recreation of another startbootstrap template. Here I
@@ -88,11 +89,11 @@
           </p>
         </div>
       </div>
-      <div class="img-project">
-        <div class="imag revealleft">
-          <img src="images/netflix.png" alt="image" />
+      <div class="Project_List">
+        <div class="Project_List_Img revealleft">
+          <img class="Project_List_Image" src="images/netflix.png" alt="" />
         </div>
-        <div id="project-1" class="revealright">
+        <div class="Project_List_Desc revealright">
           <h1>Netflix Clone</h1>
             <p>
                 I cloned netflix using react.js to improve my skills in reactjs. I get Api key from
@@ -105,6 +106,22 @@
             </p>
         </div>
       </div>
+      <div class="Project_List Reverse">
+        <div class="Project_List_Img revealleft">
+          <img class="Project_List_Image" src="images/grayscale.png" alt="" />
+        </div>
+        <div class="Project_List_Desc revealright">
+          <h1>Grayscale</h1>
+          <p>
+            Grayscale is a template from start bootstrap, I recreated that template with plain HTML and Css code. I modified this website a little to look different from orginal, This helped me learn css animations and more.
+            <br />
+            WebSite:
+            <a href="https://grayscale-clone.netlify.app/"
+              >https://grayscale-clone.netlify.app/</a
+            >
+          </p>
+        </div>
+      </div>
     </section>
     <!-- resume -->
     <div class="resume">
@@ -112,6 +129,7 @@
         <h2 class="revealright">RESUME</h2>
       </div>
     </div>
+    <div class="FlexBox">
     <div class="education">
       <div class="revealleft">
         <h3>EDUCATION</h3>
@@ -126,35 +144,41 @@
       <div class="revealright">
         <h3>SKILLS</h3>
         <div class="skill-grid">
-          <div>
-            <h4>FRONTEND</h4>
+          <div class="center">
+            <h4 >FRONTEND</h4>
             <p>HTML</p>
             <p>CSS</p>
             <p>REACT.JS</p>
           </div>
-          <div>
+          <div class="center">
+            <h4>BACKEND</h4>
+            <p>NODE.JS</p>
+            <p>EXPRESS.JS</p>
+          </div>
+          <div class="center">
             <h4>VERSIONING</h4>
             <p>GIT</p>
             <p>GITHUB</p>
           </div>
-          <div>
+          <div class="center">
             <h4>PRAGRAMMING</h4>
             <p>PYTHON</p>
             <p>JAVASCRIPT</p>
           </div>
-
-          <div>
+          <div class="center">
             <h4>DATABASE</h4>
             <p>MONGODB</p>
           </div>
-          <div>
+          <div class="center">
             <h4>DESIGN TOOL</h4>
             <p>FIGMA</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
     <!-- Experience -->
+  <div class="FlexBox_reverse">
     <div class="experience">
       <div class="revealleft">
         <h3>EXPERIENCE</h3>
@@ -176,6 +200,8 @@
         </p>
       </div>
     </div>
+  </div>
+    <div style=" width: 100%;">
     <div id="cont" class="contact">
       <form class="revealleft" method="POST" data-netlify="true">
         <h3>CONTACT</h3>
@@ -210,6 +236,7 @@
         </div>
       </form>
     </div>
+  </div>
     <div class="icons">
       <a href="https://github.com/srk-prog"
         ><i class="fab fa-github icon-1"></i
